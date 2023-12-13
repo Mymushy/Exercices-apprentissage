@@ -8,7 +8,6 @@ void ft_print_alphabet(void) {
         write(1, &current_char, 1);
         current_char++;
     }
-
 }
 
 int main() {
