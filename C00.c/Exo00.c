@@ -9,5 +9,6 @@ int main()
 {
     char c = 'c';
     ft_putchar(c);
+    write(1, "\n", 1);
         return(0);
 }
