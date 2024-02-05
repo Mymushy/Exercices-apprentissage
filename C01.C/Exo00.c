@@ -10,7 +10,7 @@ int main()
 {
 int ptr;
 ft_ft(&ptr);
-printf("%d\n", ptr);  
+printf("ptr = %d\n", ptr);  
 
 return(0);
 
