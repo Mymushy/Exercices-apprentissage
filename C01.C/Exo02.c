@@ -14,10 +14,16 @@ int main()
 
     int *a = &Jean;
     int *b = &Maurice;
+    
+
+    printf("Avant modif : a = %d\n", *a);
+    printf("Avant modif : b = %d\n", *b); 
 
 ft_swap(a, b);
-printf("a = %d\n", *a);
-printf("b = %d\n", *b);    
+
+    printf("Après modif : a = %d\n", *a);
+    printf("Après modif : b = %d\n", *b);
+
 return(0);
 
 }
