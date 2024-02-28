@@ -14,7 +14,7 @@ void ft_print_comb(void){
         write(1, &dizaine, 1);    
         write(1, &unite, 1); 
 
-        if (!(centaine == '7' && dizaine == '9' && unite == '9')) {
+        if (!(centaine == '7' && dizaine == '8' && unite == '9')) {
     write(1, ", ", 2);
 }
 
