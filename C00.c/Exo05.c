@@ -21,12 +21,13 @@ void ft_print_comb(void){
         unite++;
         }
 
-        unite = '0';
         dizaine++;
+        unite = dizaine + 1;
     }
 
-    dizaine = '0';
     centaine++;
+    dizaine = centaine + 1;
+    unite = dizaine + 1;
 }
 }   
 
