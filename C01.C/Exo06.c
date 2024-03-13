@@ -5,7 +5,8 @@
 int ft_strlen(char *str) 
 {
 int longueur = 0;
-    while (*str != '\0') {
+    while (*str != '\0') 
+    {
         longueur++;
         str++;
     }
