@@ -4,20 +4,20 @@
 
 int ft_str_is_printable(char *str)
 {
-    
-    while (*str)
+    int i = 0;
+    while (str[i] != '\0') 
     {
-        if (*str < 32 || *str > 126)
+        if (str[i] < 32 || str[i] > 126)
             return 0;   
         else 
-            str++; 
+            i++; 
     }
     return 1; 
 }
 
 int main()
 {
-    char str[] = "Traction\nBajam";
+    char str[] = "Traction\nazer";
     if (ft_str_is_printable(str))
     {
         write(1, "1", 1);
