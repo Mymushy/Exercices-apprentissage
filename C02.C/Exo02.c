@@ -17,7 +17,7 @@ int ft_str_is_alpha(char *str)
 
 int main()
 {
-    char str[] = "bishop";
+    char str[] = "bishop00";
     if (ft_str_is_alpha(str))
     {
         write(1, "1", 1);
