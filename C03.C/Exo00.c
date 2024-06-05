@@ -12,13 +12,13 @@ int ft_strcmp(char *s1, char *s2)
     {
         i++;
     }
-    return s1[i] - s2[1];
+    return s1[i] - s2[i];
 }
 
 
 int main()
 {
-    char *s1 = "Jean";
+    char *s1 = "Jea";
     char *s2 = "tarte";
     printf("Le résultat = %d\n", ft_strcmp(s1, s2));
     return(0);
