@@ -26,7 +26,7 @@ char *ft_strcat(char *dest, char *src)
 int main()
 {
     char src []= "loubard";
-    char dest [30]= "petit";
+    char dest []= "petit";
     ft_strcat(dest, src); 
     printf("Le final : %s\n", dest); 
    
