@@ -22,9 +22,9 @@ unsigned int ft_strlcat(char *dest, char *src, unsigned int size)
     {
         return size + size_src;
     }
-    int place = size - size_dest - 1;
+    int place = size - 1;
     
-    while (i < place && src[i] != '\0')
+    while (i + size_dest < place && src[i] != '\0')
     {
         dest[size_dest + i] = src[i];
         i++;
@@ -39,7 +39,7 @@ int main()
 {
     char src []= "BELMONDO";
     char dest [50]= "JeanPaul";
-    unsigned int size = 50;
+    unsigned int size = 16;
     printf("Le final : %d\n", ft_strlcat(dest, src, size));
     printf("Le mélange : %s\n", dest); 
    

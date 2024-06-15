@@ -11,7 +11,7 @@ char *ft_strstr(char *str, char *to_find)
     
     if (to_find[0] == '\0')
     {
-        return str;
+        return NULL;
     }
     
     while (str[i] != '\0') 
@@ -24,14 +24,14 @@ char *ft_strstr(char *str, char *to_find)
             }
             if (to_find[j] == '\0')
             {
-                str[i+j] = '\0';
                 return &str[i];
             }
+            j = 0;
         }
         i++;
     }
 
-    return 0;
+    return NULL;
 }
 
 
