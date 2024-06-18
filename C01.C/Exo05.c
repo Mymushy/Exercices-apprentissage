@@ -15,5 +15,5 @@ int main()
     char *str = "Benjamin";
     ft_putstr(str);
     write(1, "\n", 1);
-        return(0);
+    return(0);
 }
