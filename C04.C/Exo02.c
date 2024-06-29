@@ -2,6 +2,7 @@
 #include <unistd.h> 
 #include <ctype.h>
 #include <string.h>
+#include <limits.h>
 
 
 void ft_putnbr(int nb)
@@ -10,6 +11,18 @@ void ft_putnbr(int nb)
     int dernier;
     int i = 0;
     int tableau[30];
+
+
+    if (nb == INT_MIN)
+    {
+        while(i < 12 )
+        {
+            c = "-2147483648\n"[i];
+            write(1, &c, 1);
+            i++;
+        }
+        return;
+    }
     
     if (nb >= 0 && nb <= 9)
     {
@@ -66,6 +79,8 @@ void ft_putnbr(int nb)
 
 int main()
 {
+    ft_putnbr(INT_MIN);
+
     ft_putnbr(5);
 
     ft_putnbr(53);
