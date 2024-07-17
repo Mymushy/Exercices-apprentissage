@@ -45,7 +45,7 @@ int main()
 }    
     
     
-    #if 0 
+    /*
     > BONUS POUR SERVIR DE RAPPEL PLUS TARD --> UTILISATION DE FREE
 
     char *src = "ralphlauren";
@@ -58,4 +58,4 @@ int main()
     }
 
     return 0;
-    #endif
+    */
