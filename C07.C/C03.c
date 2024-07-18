@@ -47,7 +47,6 @@ char *ft_strjoin(int size, char **strs, char *sep)
     if (chaine == NULL)
         return NULL;
 
-    k = 0;
     i = 0;
 
     while ( i < size)
