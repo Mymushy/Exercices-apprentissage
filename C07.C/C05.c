@@ -145,7 +145,7 @@ char **ft_split(char *str, char *charset)
 }
 
 int main() {
-    char *str = "La! voisine, est sympa";
+    char *str = "Le! voisin, est sympa";
     char *charset = " ,-.!?";
 
     char **result = ft_split(str, charset);
