@@ -38,7 +38,7 @@ int main()
     
     if (result != NULL)
     {
-        printf("Le resultat est : result["); // je triche MDR
+        printf("Le resultat est : result[");
         int i = 0;
         while (i < (max - min))
         {
