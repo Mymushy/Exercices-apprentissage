@@ -19,7 +19,7 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
 int main()
 
 {
-    char src[] = "Merde au cul";
+    char src[] = "Marquer un but";
     char dest[30];
     unsigned int n = 30;
     
