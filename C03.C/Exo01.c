@@ -30,7 +30,7 @@ int ft_strncmp(char *s1, char *s2, unsigned int n)
 int main()
 {
     char *s1 = "petard";
-    char *s2 = "tagranmere";
+    char *s2 = "quiexplose";
     unsigned int n = 30;
     printf("Le résultat = %d\n", ft_strncmp(s1, s2, n));
     return(0);
